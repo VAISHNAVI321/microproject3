@@ -1,0 +1,63 @@
+body
+{
+    margin:0;
+    padding: 0%;
+}
+.c1
+{
+	text-align:center;
+}
+.c2
+{
+	text-decoration:none;
+	
+}
+.container1
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container2
+{
+	display:block; 
+}
+.page-title
+{
+    background:rgba(0,0,0,0.5);
+    text-align: center;
+    color: black;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: 20px;
+}
+.t1 th,td
+{
+	border:1px solid block;
+	border-collapse: collapse;
+	padding:30px;
+	text-align:center;
+}
+.t2 th,td
+{
+	border:1px solid block;
+	border-collapse: collapse;
+	padding:10px;
+	text-align:center;
+}
+
+th{
+	background-color:black;
+	color:white;
+}
+tr:nth-child(even)
+{
+	background-color:#eee;
+}
+tr:nth-child(odd)
+{
+	background-color:#fff;
+}
+
